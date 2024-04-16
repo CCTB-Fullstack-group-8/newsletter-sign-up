@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/index.js" type="module" defer></script>
   <title>Group 8 Project - Newsletter sign-up form with success message</title>
 </head>
 
@@ -27,7 +29,7 @@
           <li><img src="assets/images/icon-list.svg" alt="icon-list"></img><span>And much more!</span></li>
         </ul>
         <div class="input-area">
-          <form action="confirm-page.html">
+          <form>
             <span class="form-title">Email address</span>
             <span class="error">Valid email required</span>
             <input class="email-form" type="text" placeholder="email@cctb.com" />
@@ -36,30 +38,30 @@
         </div>
       </section>
       <!-- Sign-up form end -->
-
-      <!-- Success message start -->
-      <div class="success-section">
-        <img src="assets/images/icon-success.svg" alt="">
-        <h3>
-          Thanks for subscribing!
-        </h3>
-        <p>A confirmation email has been sent to ash@loremcompany.com.
-          Please open it and click the button inside to confirm your subscription.
-        </p>
-        <button>Dismiss message</button>
-      </div> 
-      <!-- Success message end -->  
     </main>
   </div>
-  
 
-    <!-- Project credits -->
+  <!-- Success message start -->
+  <div class="success-section">
+    <img src="assets/images/icon-success.svg" alt="">
+    <h3>
+      Thanks for subscribing!
+    </h3>
+    <p>A confirmation email has been sent to ash@loremcompany.com.
+      Please open it and click the button inside to confirm your subscription.
+    </p>
+    <button class="dismiss-button">Dismiss message</button>
+  </div> 
+  <!-- Success message end -->  
+  
+  <!-- Project credits start -->
   <footer class="flex-center">
     <div class="attribution">
       Challenge prepared by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Kaynan, Bugra and Kareem.</a>.
     </div>
   </footer>
+  <!-- Project credits end -->
 </body>
 
 </html>
