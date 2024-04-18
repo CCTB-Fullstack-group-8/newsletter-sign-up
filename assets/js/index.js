@@ -7,6 +7,7 @@ const container = document.querySelector('.container');
 mainForm.addEventListener('submit', function (event) {
   event.preventDefault();
   handleFormSubmission();
+  
 });
 
 function handleFormSubmission() {
